@@ -112,7 +112,7 @@ const About = props => {
             <p className="separator" />
           </div>
           <div className="desc full">
-            <h4 className="subtitle">My name is Yago.</h4>
+            <h4 className="subtitle">My name is Rizwan.</h4>
             <p>
               I am a web developer and UX designer based in the beautiful west coast of Spain,
               Galicia.
