@@ -618,8 +618,8 @@ class App extends React.Component {
       let scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
 
       if (scrollPos <= window.innerHeight) {
-        silhouette.style.bottom = `${parseInt(scrollPos / 6)}px`;
-        forest.style.bottom = `${parseInt(forestInitPos + scrollPos / 6)}px`;
+        silhouette.style.bottom = `${parseInt(scrollPos / 6, 10)}px`;
+        forest.style.bottom = `${parseInt(forestInitPos + scrollPos / 6, 10)}px`;
       }
 
       if (scrollPos - 100 <= window.innerHeight)
